@@ -10,9 +10,13 @@
         const names =["bhushan","harshal","vishal","swanand","aman","sanket"];
         console.log("Array Elements are:");
         console.log(names);
-    
+        document.write(names);
+        document.write(`</br>`);
+
+
         console.log("Element of 4th index:");
         console.log(names[4]);
+        document.write(names)
 
         console.log("Length of array:");
         console.log(names.length);
@@ -47,6 +51,21 @@
         console.log("Add element at 4th index using splice function:");
         names.splice( 4 , 0 , "chaitanya");
         console.log(names);
+
+        console.log("array converted to string using join function :");
+        console.log(names.join(""));
+
+        console.log("reverse the array using reverse function:");
+        console.log(names.reverse());
+
+        console.log("sort array in ascending order using sort function:");
+        console.log(names.sort());
+
+        console.log("sort array in decending order using sort function:");
+        console.log(names.sort().reverse());
+
+
+        document.write(names)
     </script>
 </body>
 </html>
