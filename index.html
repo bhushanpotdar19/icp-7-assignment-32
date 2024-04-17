@@ -30,7 +30,23 @@
         
         console.log("Remove last element using Pop function:");
         names.pop();
+        console.log(names);
+
+        console.log("Add element at start position using unshift function:");
+        names.unshift("uddhav");
         console.log(names); 
+
+        console.log("remove element at start position using shift function:");
+        names.shift();
+        console.log(names); 
+
+        console.log("Add and delete elements at once using splice function:");
+        names.splice( 2 , 1 , "om" ,"vedant");
+        console.log(names);
+        
+        console.log("Add element at 4th index using splice function:");
+        names.splice( 4 , 0 , "chaitanya");
+        console.log(names);
     </script>
 </body>
 </html>
